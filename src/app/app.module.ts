@@ -8,6 +8,11 @@ import { PagesnofoundComponent } from './pages/pagesnofound/pagesnofound.compone
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HeaderComponent } from './shared/header/header.component';
 import { SidebarComponent } from './shared/sidebar/sidebar.component';
+import { ClientsComponent } from './pages/clients/clients.component';
+import { CategoryComponent } from './pages/category/category.component';
+import { UsersComponent } from './pages/users/users.component';
+import { ScheduleComponent } from './pages/schedule/schedule.component';
+import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { SidebarComponent } from './shared/sidebar/sidebar.component';
     PagesnofoundComponent,
     DashboardComponent,
     HeaderComponent,
-    SidebarComponent
+    SidebarComponent,
+    ClientsComponent,
+    CategoryComponent,
+    UsersComponent,
+    ScheduleComponent,
+    BreadcrumbsComponent
   ],
   imports: [
     BrowserModule,
