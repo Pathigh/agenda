@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
+
 import { AppComponent } from './app.component';
 import { LoginComponent } from './auth/login/login.component';
 import { PagesnofoundComponent } from './pages/pagesnofound/pagesnofound.component';
@@ -13,6 +14,7 @@ import { CategoryComponent } from './pages/category/category.component';
 import { UsersComponent } from './pages/users/users.component';
 import { ScheduleComponent } from './pages/schedule/schedule.component';
 import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component';
+import { MaindashboardComponent } from './pages/maindashboard.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,8 @@ import { BreadcrumbsComponent } from './shared/breadcrumbs/breadcrumbs.component
     CategoryComponent,
     UsersComponent,
     ScheduleComponent,
-    BreadcrumbsComponent
+    BreadcrumbsComponent,
+    MaindashboardComponent
   ],
   imports: [
     BrowserModule,
