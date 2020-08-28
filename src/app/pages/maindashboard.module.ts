@@ -10,6 +10,11 @@ import { UsersComponent} from './users/users.component';
 import { ScheduleComponent} from './schedule/schedule.component';
 import { MaindashboardComponent } from './maindashboard.component';
 
+import { ViewscheduleComponent } from './schedule/viewschedule.component';
+import { ViewusersComponent } from './users/viewusers.component';
+import { ViewcategoryComponent } from './category/viewcategory.component';
+import { ViewclientsComponent } from './clients/viewclients.component';
+
 
 @NgModule({
   declarations: [
@@ -18,7 +23,11 @@ import { MaindashboardComponent } from './maindashboard.component';
     CategoryComponent,
     UsersComponent,
     ScheduleComponent,
-    MaindashboardComponent
+    MaindashboardComponent,
+    ViewscheduleComponent,
+    ViewusersComponent,
+    ViewcategoryComponent,
+    ViewclientsComponent
   ],
   exports: [
     DashboardComponent,

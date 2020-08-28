@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 import { AppRoutingModule } from './app-routing.module';
 import {MaindashboardModule} from './pages/maindashboard.module';
@@ -23,7 +24,8 @@ import { PagesnofoundComponent } from './pagesnofound/pagesnofound.component';
     BrowserModule,
     AppRoutingModule,
     MaindashboardModule,
-    AuthModule
+    AuthModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

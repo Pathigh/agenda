@@ -7,6 +7,10 @@ import { UsersComponent } from './users/users.component';
 import { ClientsComponent } from './clients/clients.component';
 import { CategoryComponent } from './category/category.component';
 import { ScheduleComponent } from './schedule/schedule.component';
+import { ViewclientsComponent } from './clients/viewclients.component';
+import { ViewusersComponent } from './users/viewusers.component';
+import { ViewcategoryComponent } from './category/viewcategory.component';
+import { ViewscheduleComponent } from './schedule/viewschedule.component';
 
 
 const routes: Routes = [
@@ -14,9 +18,13 @@ const routes: Routes = [
 children: [
   { path: '', component: DashboardComponent},
   {path: 'users', component: UsersComponent},
+  {path: 'viewusers', component: ViewusersComponent},
   {path: 'clients', component: ClientsComponent},
+  {path: 'viewclients', component: ViewclientsComponent},
   {path: 'category', component: CategoryComponent},
-  {path: 'schedule', component: ScheduleComponent}
+  {path: 'viewcategory', component: ViewcategoryComponent},
+  {path: 'schedule', component: ScheduleComponent},
+  {path: 'viewschedule', component: ViewscheduleComponent},
 
  ]
 },
